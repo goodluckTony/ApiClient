@@ -1,0 +1,32 @@
+{
+  "name": "briefs-aqa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bomi-school/briefs-aqa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bomi-school/briefs-aqa/issues"
+  },
+  "homepage": "https://github.com/bomi-school/briefs-aqa#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "graphql-request": "^7.1.2",
+    "playwright": "^1.52.0",
+    "playwright-core": "^1.52.0"
+  }
+}
